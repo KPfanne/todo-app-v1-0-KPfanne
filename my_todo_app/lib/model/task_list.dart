@@ -82,6 +82,10 @@ class TaskList extends ChangeNotifier {
     notifyListeners();
   }
 
+  void changeDueDate(Task task, DateTime newDueDate) {
+    task.dueDate = newDueDate;
+  }
+
   void addTask(Task task) {
     _tasks.add(task);
     print("Neue Aufgabe hinzugefügt");

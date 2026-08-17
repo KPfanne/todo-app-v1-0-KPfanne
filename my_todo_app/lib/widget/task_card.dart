@@ -49,8 +49,10 @@ class _TaskCardState extends State<TaskCard> {
           },
         );
       },
-      onDismissed: (direction) =>
-          context.read<TaskList>().removeTask(widget.task),
+      onDismissed: (direction) {
+        context.read<TaskList>().removeTask(widget.task);
+        context.read<TaskList>().safeTaskList();
+      },
       child: Stack(
         children: [
           Card(
