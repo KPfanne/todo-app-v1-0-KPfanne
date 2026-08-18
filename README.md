@@ -28,13 +28,7 @@ Built as a practice project while learning Flutter, with a focus on clean state 
 
 ## Screenshots
 
-<!-- Screenshots hochladen und hier einbinden:
-     1. Ordner "screenshots" im Repo anlegen
-     2. PNGs per Drag & Drop auf GitHub hineinziehen
-     3. Zeile unten einkommentieren und Dateinamen anpassen -->
-
-<!-- <img src="screenshots/home.png" width="250"> <img src="screenshots/create.png" width="250"> -->
-
+<img src="screenshots/TaskList.PNG" width="250"> <img src="screenshots/CreateTask.PNG" width="250"> <img src="screenshots/ChangeTaskDetails.PNG" width="250"> <img src="screenshots/SwipeToDeleteTasks.PNG" width="250"> 
 ## Architecture
 
 State is managed with `provider`. Two `ChangeNotifier`s sit above the widget tree: `TaskList` holds the tasks, the active filter and all sorting logic, `ThemeNotifier` holds the theme mode. Widgets read from them via `Consumer` and `context.watch`, so the UI stays free of business logic.
