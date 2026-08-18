@@ -28,12 +28,7 @@ Built as a practice project while learning Flutter, with a focus on clean state 
 
 ## Screenshots
 
-<!-- Screenshots hochladen und hier einbinden:
-     1. Ordner "screenshots" im Repo anlegen
-     2. PNGs per Drag & Drop auf GitHub hineinziehen
-     3. Zeile unten einkommentieren und Dateinamen anpassen -->
-
-<!-- <img src="screenshots/home.png" width="250"> <img src="screenshots/create.png" width="250"> -->
+<img src="screenshots/TaskList.PNG" width="250"> <img src="screenshots/CreateTask.PNG" width="250"> <img src="screenshots/ChangeTaskDetails.PNG" width="250"> <img src="screenshots/SwipeToDeleteTasks.PNG" width="250"> 
 
 ## Architecture
 
